@@ -239,24 +239,24 @@ header{
     }
 }
 /* ===Education=== */
-#things{
+#education{
     position: relative;
     overflow-x: hidden;
     margin-top: 15em;
 }
-#things h2{
+#education h2{
     text-align: center;
     color: var(--gray);
     margin-bottom: 3em;
 }
-.things__dec{
+.education__dec{
     position: absolute;
     top: 0;
     left: 0;
     transform: translateX(-60%);
     z-index: -1;
 }
-.things__dec:nth-child(2){
+.education__dec:nth-child(2){
     top: initial;
     left: initial;
     bottom: 15%;
@@ -264,17 +264,17 @@ header{
     transform: translateX(60%);
     z-index: -1;
 }
-.things__item{
+.education__item{
     margin: 3em 0;
 }
-.things__item img{
+.education__item img{
     padding-bottom: 4em;
 }
-.things__item--heading {
+.education__item--heading {
     text-align: center;
     color: var(--gray);
 }
-.things__item--heading p{
+.education__item--heading p{
     font-weight: 300;
     line-height: 2em;
     max-width: 300px;
@@ -282,30 +282,30 @@ header{
     padding-top: 1em;
 }
 @media (min-width:62em){
-    .things__item{
+    .education__item{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0;
     }
-    .things__item img{
+    .education__item img{
         width: 40%;
         padding-bottom: 0;
     }
-    .things__item--heading{
+    .education__item--heading{
         width: 45%;
         text-align: initial;
     }
-    .things__item--heading p{
+    .education__item--heading p{
         max-width: 500px;
         margin: 0;
     }
-    .things__item:nth-child(odd) img{
+    .education__item:nth-child(odd) img{
         order: 2;
         width: 40%;
         padding-bottom: 0;
     }
-    .things__item--heading:nth-child(odd){
+    .education__item--heading:nth-child(odd){
         order: 1;
         width: 45%;
         text-align: initial;
